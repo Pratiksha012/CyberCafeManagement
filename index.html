@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Hub - Cyber Café</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('cyberimage.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 3.5em;
+            color: #007BFF;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+
+        ul li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+
+        ul li::before {
+            content: '✔';
+            color: #007BFF;
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+        .join-text {
+            font-size: 1.7em;
+            color: #007BFF;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 15px 40px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 1.2em;
+            border-radius: 50px;
+            box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background-color: #0056b3;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 86, 179, 0.4);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pixel Hub</h1>
+        <p>
+            Tired of seeing "No Internet Access" at home? We’ve got you covered! At Pixel Hub, we offer high-speed internet and
+            top-notch services at unbeatable prices. Whether you’re here to game, work, or simply relax, we ensure your experience
+            is smooth and hassle-free.
+        </p>
+
+        <ul>
+            <li>High-speed Internet Access</li>
+            <li>State-of-the-Art Workstations</li>
+            <li>Exclusive Gaming Zones</li>
+            <li>Refreshments & Snacks Available</li>
+            <li>24/7 Tech Support</li>
+            <li>Printing, Scanning, and More</li>
+        </ul>
+
+        <div class="join-text">Join us now!</div>
+
+        <div class="buttons">
+            <a href="registration.jsp">Register Now</a>
+            <a href="login.jsp">Login</a>
+        </div>
+    </div>
+</body>
+</html>
