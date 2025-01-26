@@ -48,13 +48,7 @@ After deploying the application, access it via your web browser at `http://local
 ## **Contributing**
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-## **License**
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## **Acknowledgments**
 - Thanks to the PostgreSQL community for the robust database system.
 - Special thanks to the Apache Tomcat team for their excellent server software.
-
----
-
-Feel free to customize any section as needed!
